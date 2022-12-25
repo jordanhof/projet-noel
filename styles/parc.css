@@ -1,0 +1,21 @@
+section h1{
+    text-align: center;
+    font-size: 55px;
+}
+
+section h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+section h3, h1{
+    padding: 20px;    
+}
+
+section .image-top-page img{
+    display: block;
+    width: 900px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0 auto;
+}

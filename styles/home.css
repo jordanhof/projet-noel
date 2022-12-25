@@ -1,0 +1,55 @@
+/* ====SECTION==== */
+
+section h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 35px;
+}
+
+section div{
+    float: left;
+    width: 70%;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+section p{
+    text-align: justify;
+    padding: 20px;
+}
+
+/* =====ASIDE===== */
+
+section aside{
+    float: right;
+    width: 25%;
+    text-align: justify;
+    margin-right: 20px;
+    border: 2px solid black;
+}
+
+section aside h3{
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+}
+
+section aside p{
+    padding: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    section div,
+    section aside {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    section aside{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

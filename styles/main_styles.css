@@ -1,0 +1,233 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: Candara;
+    src: url(../fonts/Candara.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    text-decoration: none;
+    font-family: Comfortaa;
+}
+
+/* =====MENU DEROULANT===== */
+
+body{
+    background-color: wheat;
+}
+
+header{
+    min-height: 550px;
+    background: url(../images/background_header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header .header-top{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1000;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.5329482134650736) 7%, rgba(83,83,83,0.4797269249496674) 65%, rgba(83,83,83,0) 89%);
+}
+header > div a{
+    text-transform: uppercase;
+}
+
+header .logo-header{
+    width: 200px;
+}
+
+header .nav-bar ul{
+    width: 100%;
+    list-style: none;
+}
+
+header .nav-bar ul li{
+    position: relative;
+    float: left;
+}
+
+header .nav-bar ul li a{
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
+
+header .nav-bar ul li a:hover{
+    background-color: #333;
+    color: white;
+    border-bottom: 3px solid green;
+}
+
+header .nav-bar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    display: none;
+}
+
+header .nav-bar ul li ul li{
+    width: 100%;
+    /* border-top: 1px solid rgba(0, 0, 0, .1); */
+}
+
+header .nav-bar ul li ul li ul{
+    left: 200px;
+    top: 0;
+}
+
+header .nav-bar ul li:focus-within > ul,
+header .nav-bar ul li:hover > ul {
+    display: initial;
+}
+
+.nav-bar .deroulant{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.nav-bar a{
+    text-align: center;
+}
+
+.menu-btn{
+    position: absolute;
+    text-align: right;
+    right: 30px; 
+    height: 30px;
+}
+
+.menu-btn{
+    display: none;
+}
+
+@media screen and (max-width: 1512px) {
+    .menu-btn{
+        display: initial;
+    }
+
+    header .nav-bar{
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+    }
+
+    header .nav-bar ul li{
+        width: 100%;
+    }
+
+    header .nav-bar ul li ul{
+        position: relative;
+        width: 100%;
+    }
+
+    header .nav-bar ul li ul li ul{
+        width: 100%;
+        left: 0;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+
+    .mobile-menu{
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+    }   
+
+    .nav-bar .deroulant{
+        margin-bottom: 10px;
+    }
+
+    .nav-bar .deroulant ul li{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+}
+
+header #big-header{
+    height :550px;
+    position: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header #big-header h1{
+    font-size: 65px;
+    text-align: center;
+    color: white;
+}
+
+/* ====HEADER POP-UP==== */
+
+
+/* ====FOOTER==== */
+footer{
+    height: auto;
+    clear:both;
+    display: block; 
+    background-color: rgb(186, 169, 138);
+    text-align: center;
+    font-size: 14px
+}
+
+footer #concepteur{
+    padding: 20px 0 0 0;
+}
+
+footer .legale{
+    padding: 20px;
+    padding-top: 30px;
+}
+
+footer .legale p a{
+    color: black;
+}
+
+footer .legale p a:hover{
+    color: rgb(86, 86, 86);
+}
+
+footer .legale{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1200px) {
+    /* footer #realise{
+        margin-top: 30px;
+        width: 100%;
+    } */
+
+    footer .legale p{
+        width: 125px;
+        color: black;
+    }
+    
+        footer #realise{
+            width: 160px;
+    }
+}
+
+@media screen and (max-width: 592px) {
+    footer #realise{
+        margin-top: 30px;
+        width: 100%;
+    }
+}

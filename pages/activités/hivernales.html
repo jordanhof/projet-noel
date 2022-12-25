@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/main_styles.css">
+    <link rel="stylesheet" href="../../styles/home.css">
+    <title>Viroinval - Acceuil</title>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <!-- <img class="logo-header" src="images/logo_viroinval.png" alt="logo_viroinval"> -->
+            <a class="logo" href="../../index.html"><img class="logo-header" src="../../images/logo_viroinval.png" alt="logo_viroinval"></a>
+            <img class="menu-btn" src="../../images/menu-btn.png" alt="menu-btn">
+            <nav class="nav-bar">
+                <ul class="nav-link">
+                    <li class="deroulant"><a href="../../index.html">Acceuil</a></li>
+                    <li class="deroulant"><a href="#">8 villages de Viroinval</a>
+                        <ul>
+                            <li><a href="../villages/dourbes.html">Dourbes</a></li>
+                            <li><a href="../villages/mesnil.html">Le Mesnil</a></li>
+                            <li><a href="../villages/mazée.html">Mazée</a></li>
+                            <li><a href="../villages/nismes.html">Nismes</a></li>
+                            <li><a href="../villages/thiérache.html">Oignies-en-Thiérache</a></li>
+                            <li><a href="../villages/olloy_viron.html">Olloy-sur-Viroin</a></li>
+                            <li><a href="../villages/treignes.html">Treignes</a></li>
+                            <li><a href="../villages/verves_viron.html">Verves-sur-Viroin</a></li>
+                        </ul>
+                    </li>
+                    <li class="deroulant"><a href="../parc.html">Parc Naturel</a></li>
+                    <li class="deroulant"><a href="#">Que faire ?</a>
+                        <ul>
+                            <li><a href="../activités/folkloriques.html">Les activités folkloriques</a></li>
+                            <li><a href="#">Les activités sportives</a>
+                                <ul>
+                                    <li><a href="../activités/sportives/velo.html">Les randonnés en vélo et VTT</a></li>
+                                    <li><a href="../activités/sportives/marche.html">Les randonnées pédestres et marche nordique</a></li>
+                                    <li><a href="../activités/sportives/kayaking.html">Le kayaking</a></li>
+                                    <li><a href="../activités/sportives/peche.html">La pêche</a></li>
+                                </ul>  
+                            </li>
+                            <li><a href="../activités/hivernales.html">Les activités hivernales</a></li>
+                        </ul>
+                    </li>
+                    <li class="deroulant"><a href="#">Que visiter ?</a>
+                        <ul>
+                            <li><a href="../visiter/chateaux.html">Les châteaux et fortifications de la région</a></li>
+                            <li><a href="../visiter/site_remarquables.html">Les sites remarquables</a></li>
+                            <li><a href="../visiter/musée.html">Les musées</a></li>
+                        </ul>
+                    </li>
+                    <li class="deroulant"><a href="../contact.html">Contactez-nous !</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="big-header">
+            <h1>Autour du centre de l’Europe des 15</h1>
+        </div>
+    </header>
+    <section>
+        <h1>Hivernales</h1>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+<script>
+    const menuBtn = document.querySelector(".menu-btn")
+    const navBar = document.querySelector(".nav-bar")
+    const Logo = document.querySelector(".logo")
+
+    menuBtn.addEventListener('click',()=>{
+    navBar.classList.toggle('mobile-menu')
+    Logo.classList.toggle('mobile-menu')
+    })
+</script>
+</html>
