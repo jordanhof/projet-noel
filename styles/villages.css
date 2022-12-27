@@ -1,3 +1,4 @@
+/*====SECTION====*/
 section h1{
     text-align: center;
     font-size: 55px;
@@ -13,8 +14,10 @@ section .histoire, h3, h1, article{
 }
 
 section div p{
-    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
 }
+/*====ARTICLE====*/
 
 article{
     width: 75%;
@@ -25,22 +28,112 @@ article{
 }
 
 article h4{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+article h5{
+    font-size: 16px;
     text-align: center;
     padding: 10px;
 }
 
 article p{
-    text-align: justify;
+    text-align: left;
     padding: 20px;
+    padding-bottom: 4px;
 }
 
-article img{
+article #img-art-1-1{
     width: 30%;
+    float: left;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 0;
+    padding-left: 10px;
 }
 
-iframe{
+article #img-art-2-1{
+    width: 20%;
+    float: left;
+    padding-right: 10px;
+}
+
+article #img-art-2-2{
+    width: 30%;
+    float: right;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+article #img-art-3-1{
+    width: 17%;
+    float: right;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+article hr{
+    clear: both;
+    border: 0;
+}
+
+@media screen and (max-width: 750px) {
+    article #img-art-1-1{
+        width: 50%;
+    }
+    
+    article #img-art-2-1{
+        width: 40%;
+        float: right;
+    }
+    
+    article #img-art-2-2{
+        width: 50%;
+    }  
+}
+
+.iframe-article{
+    width: 100%;
+    height: 330px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+section > iframe{
     margin-top: 30px;
     width: 100%;
     height: 450px; 
     border: 0;
+}
+
+/* ===TABLE==== */
+article table{
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th{
+    height: 40px;
+    text-transform: uppercase;
+    background-color: rgba(130, 130, 130, 0.527);
+}
+
+table td{
+    height: 26px;
+}
+
+table th, td, caption{
+    border: solid black;
+}
+
+.week-end{
+    background-color: #BAA98A;
 }
