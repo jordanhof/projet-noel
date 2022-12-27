@@ -9,11 +9,16 @@ section h3{
     font-size: 30px;
 }
 
-section .histoire, h3, h1, article{
+section h3, h1, article, .histoire, h4{
     padding: 20px;
 }
 
+h4{
+    padding-left: 30px;
+}
+
 section div p{
+    box-sizing: border-box;
     padding-left: 40px;
     padding-right: 40px;
 }
