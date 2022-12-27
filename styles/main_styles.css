@@ -15,7 +15,7 @@
     font-family: Comfortaa;
 }
 
-/* =====MENU DEROULANT===== */
+/* ===================MENU DEROULANT=================== */
 
 body{
     background-color: wheat;
@@ -186,10 +186,10 @@ header #big-header h1{
     color: white;
 }
 
-/* ====HEADER POP-UP==== */
+/* ===================HEADER POP-UP=================== */
 
 
-/* ====FOOTER==== */
+/* ===================FOOTER=================== */
 footer{
     height: auto;
     clear:both;
@@ -241,7 +241,7 @@ footer .legale{
     }
 }
 
-/* ====BTN SCROOL TOP==== */
+/* ===================BTN SCROOL TOP=================== */
 
 #scroll_to_top {
     position: fixed;

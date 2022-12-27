@@ -1,4 +1,4 @@
-/*====SECTION====*/
+/* ===================SECTION=================== */
 section h1{
     text-align: center;
     font-size: 55px;
@@ -22,7 +22,7 @@ section div p{
     padding-left: 40px;
     padding-right: 40px;
 }
-/*====ARTICLE====*/
+/*===================ARTICLE===================*/
 
 article{
     width: 75%;
@@ -115,7 +115,7 @@ section > iframe{
     border: 0;
 }
 
-/* ===TABLE==== */
+/* ===================TABLE=================== */
 article table{
     margin: 0 auto;
     width: 400px;
