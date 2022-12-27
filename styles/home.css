@@ -50,6 +50,15 @@ section aside p{
     padding: 20px;
 }
 
+section aside p a{
+    color: black;
+}
+
+section aside p a:hover{
+    color: rgb(86, 86, 86);
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1200px) {
     section div,
     section aside {
@@ -62,4 +71,14 @@ section aside p{
         margin-top: 20px;
         margin-bottom: 20px;
     }
+}
+
+#avatar{
+    height: 150px;
+    float: right;
+    padding: 20px;
+}
+
+.gras{
+    font-weight: 800;
 }

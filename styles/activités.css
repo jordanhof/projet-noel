@@ -1,0 +1,90 @@
+/*====SECTION====*/
+section h1{
+    text-align: center;
+    font-size: 55px;
+}
+
+section h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+h4{
+    text-align: center;
+    padding-left: 30px;
+}
+
+section h4, h3, h1, .histoire{
+    padding: 20px;
+}
+
+section .histoire p{
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+section .histoire p a{
+    color: black;
+}
+
+section .histoire p a:hover{
+    color: rgb(86, 86, 86);
+    text-decoration: underline;
+}
+
+#video-rtbf{
+    display: block;
+    width: 728px; 
+    height: 410px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:950px) {
+    #video-rtbf{
+        width: calc(728px - 280px); 
+        height: calc(410px - 160px);
+    } 
+}
+
+section .histoire ul li{
+    padding-bottom: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+/* ===TABLE==== */
+.tab{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+table{
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+table th{
+    height: 35px;
+    text-transform: uppercase;
+    background-color: rgba(130, 130, 130, 0.527);
+}
+
+table td{
+    height: 23px;
+}
+
+table th, td, caption{
+    border: solid black;
+}
+
+.week-end{
+    background-color: #BAA98A;
+}

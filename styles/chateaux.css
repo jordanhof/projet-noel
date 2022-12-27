@@ -14,10 +14,12 @@ section h3, h1, .histoire, h4{
 }
 
 h4{
+    text-align: center;
     padding-left: 30px;
 }
 
 section .histoire p{
+    text-align: center;
     box-sizing: border-box;
     padding-left: 40px;
     padding-right: 40px;
