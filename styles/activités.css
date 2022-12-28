@@ -120,6 +120,31 @@ section #image-top-page img{
     height: 450px; 
     border: 0;
 }
+/* ===================MARCHE=================== */
+
+.grid-rando{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.alltrails{
+    min-width: 575px;
+    max-width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 900px) {
+    .alltrails{
+        min-width: 0;
+        max-width: none;
+        width: 100%;
+    }
+}
 
 /* ===================TABLE=================== */
 .tab{
