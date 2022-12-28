@@ -34,6 +34,10 @@ section .histoire p a:hover{
     text-decoration: underline;
 }
 
+.remove-after::after {
+    content: none;
+}
+
 /* ===================MUSEE=================== */
 
 .map{
@@ -64,11 +68,6 @@ section .histoire p a:hover{
     height: 190px;
     float: right;
 }
-
-#gallery-chat::after {
-    content: none;
-}
-
 /* ===================FOLKLORIQUES=================== */
 #video-rtbf{
     display: block;
