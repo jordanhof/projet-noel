@@ -27,8 +27,26 @@ section #map{
 
 section #population{
     display: block;
-    height: 200px;
+    height: 35vh;
     margin: 0 auto;
+}
+
+@media screen and (max-width:821px){
+    section #population{
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width:500px){
+    section #population{
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width:350px){
+    section #population{
+        height: 19vh;
+    }
 }
 
 /* ===================ASIDE=================== */

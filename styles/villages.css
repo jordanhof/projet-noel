@@ -63,6 +63,7 @@ article #img-art-2-1{
     width: 20%;
     float: left;
     padding-right: 10px;
+    padding-top: 10px;
 }
 
 article #img-art-2-2{
@@ -106,6 +107,7 @@ article hr{
     padding-right: 20px;
     padding-bottom: 20px;
     box-sizing: border-box;
+    border: 0;
 }
 
 section > iframe{
@@ -118,11 +120,17 @@ section > iframe{
 /* ===================TABLE=================== */
 article table{
     margin: 0 auto;
-    width: 400px;
+    width: 350px;
     text-align: center;
     vertical-align: middle;
     border-collapse: collapse;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 470px) {
+    article table{
+        width: 280px;
+    }
 }
 
 table th{
@@ -141,4 +149,8 @@ table th, td, caption{
 
 .week-end{
     background-color: #BAA98A;
+}
+
+.histoire-2{
+    display: block;
 }
