@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/main_styles.css">
-    <link rel="stylesheet" href="../styles/home.css">
-    <title>Viroinval - Acceuil</title>
+    <link rel="stylesheet" href="../styles/activités.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <title>Contact</title>
 </head>
 <body>
     <header>
@@ -61,8 +62,131 @@
     </header>
     <section>
         <h1>Contactez-nous</h1>
-
+        <div class="container">
+            <h3>Newsletter</h3>
+            <form action="#" class="form">
+                <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter full name" required />
+                </div>
         
+                <div class="input-box">
+                <label>Email Address</label>
+                <input type="text" placeholder="Enter email address" required />
+                </div>
+        
+                <div class="column">
+                <div class="input-box">
+                    <label>Phone Number</label>
+                    <input type="number" placeholder="Enter phone number" required />
+                </div>
+                <div class="input-box">
+                    <label>Birth Date</label>
+                    <input type="date" placeholder="Enter birth date" required />
+                </div>
+                </div>
+                <div class="gender-box">
+                    <h3>Sexe</h3>
+                    <div class="gender-option">
+                        <div class="gender">
+                            <input type="radio" id="check-male" name="gender" checked />
+                            <label for="check-male">Homme</label>
+                        </div>
+                        <div class="gender">
+                            <input type="radio" id="check-female" name="gender" />
+                            <label for="check-female">Femme</label>
+                        </div>
+                            <div class="gender">
+                            <input type="radio" id="check-other" name="gender" />
+                            <label for="check-other">Robot</label>
+                        </div>
+                    </div>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+        <h3>Informations Complémentaires</h3>
+        <div class="info">
+            <p>
+                Adresse : Parc Communal 1, 5670 Viroinval
+                <br>
+                Tel : <a href="tel:+60 31 00 10">060 31 00 10</a>
+                <br>
+                Mail : <a href="mailto:secretariat@viroinval.be">secretariat@viroinval.be</a>
+                <br>
+                Site : <a href="https://www.viroinval.be/fr" target="_blank">viroinval.be</a>
+            </p>
+            <table>
+                <tr>
+                    <th>Jour</th>
+                    <th>Heures d'ouverture</th>
+                </tr>
+                <tr>
+                    <td>Lundi</td>
+                    <td rowspan="5">9h - 12h00</td>
+                </tr>
+                <tr>
+                    <td>Mardi</td>
+                </tr>
+                <tr>
+                    <td>Mercredi</td>
+                </tr>
+                <tr>
+                    <td>Jeudi</td>
+                </tr>
+                <tr>
+                    <td>Vendredi</td>
+                </tr>
+                <tr class="week-end">
+                    <td>Samedi</td>
+                    <td rowspan="2">Fermé</td>
+                </tr>
+                <tr class="week-end">
+                    <td>Dimanche</td>
+                </tr>
+            </table>
+        </div>
+        <h3>Office du Tourisme</h3>
+        <div class="info">
+            <p>
+                Adresse : Rue Vieille-Eglise 5, 5670 Nismes
+                <br>
+                Tel : <a href="tel:+60 31 16 35">060 31 16 35</a>
+                <br>
+                Mail : <a href="mailto:tourisme.viroinval@skynet.be">tourisme.viroinval@skynet.be </a>
+                <br>
+                Site : <a href="http://tourisme.viroinval.be/" target="_blank">tourisme.viroinval.be</a>
+            </p>
+            <table>
+                <tr>
+                    <th>Jour</th>
+                    <th>Heures d'ouverture</th>
+                </tr>
+                <tr>
+                    <td>Lundi</td>
+                    <td rowspan="6">9h - 16h30</td>
+                </tr>
+                <tr>
+                    <td>Mardi</td>
+                </tr>
+                <tr>
+                    <td>Mercredi</td>
+                </tr>
+                <tr>
+                    <td>Jeudi</td>
+                </tr>
+                <tr>
+                    <td>Vendredi</td>
+                </tr>
+                <tr>
+                    <td>Samedi</td>
+                </tr>
+                <tr class="week-end">
+                    <td>Dimanche</td>
+                    <td>Fermé</td>
+                </tr>
+            </table>
+        </div>
         <div id="scroll_to_top">
             <a href="#big-header"><img src="../images/btn_return_top.png" alt="Retourner en haut" /></a>
         </div>
